@@ -1,6 +1,6 @@
-import { Spinner } from '@/components/ui/spinner';
+
 import { GET_USER } from '@/queries';
-import { Repository, UserData } from '@/types';
+import {  UserData } from '@/types';
 import { useQuery } from '@apollo/client';
 import ForkedRepos from '../charts/ForkedRepos'
 import PopularRepos from '../charts/PopularRepos'
